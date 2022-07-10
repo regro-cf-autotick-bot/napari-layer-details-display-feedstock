@@ -1,5 +1,5 @@
 {% set name = "napari-layer-details-display" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-layer-details-display-{{ version }}.tar.gz
-  sha256: 796d6b50933b611ac5a7a9a8c2555c2677d26ba8c9eb87d7a2d105ab8a859c41
+  sha256: d95585fc2ce1abaec45b9ce70dc3524db97f36c3ec6981fa80e2e42fedc1ce95
 
 build:
   noarch: python
